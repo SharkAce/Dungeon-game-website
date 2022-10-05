@@ -47,7 +47,7 @@ body {
   margin-left: calc(38% - 168px);
   text-align: center;
   padding-top: 7px;
-  padding-bottom: 7px;
+  padding-bottom: 20px;
 }
 
 .background_image_description {
@@ -66,6 +66,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
+  padding: 5px;
 }
 
 #float {
@@ -92,9 +93,12 @@ body {
 
 .tech_container img {
   display: flexbox;
+  vertical-align: center;
   margin: 5px;
   width: 90px;
   height: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 p {
@@ -117,7 +121,8 @@ p {
 
 .main_img {
   border: 5px solid #111;
-  height: 600px;
+  width: 1000px;
+  max-width: 80%;
 }
 
 .paragraph p {

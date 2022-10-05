@@ -3,7 +3,7 @@ let spriteSheet;
 let spriteSize;
 let levelSize = {x:0,y:0};
 let selected = {
-    id: 1, 
+    id: 17, 
     fg: false, 
     rotation: 0, 
     multiSelectedIds: [], 
