@@ -143,6 +143,16 @@ p {
   font-size: 60px;
 }
 
+#editor_div {
+  margin:8px; 
+  margin-bottom: 11px;
+}
+
+#editor_body {
+  margin: 0; 
+  overflow: hidden; 
+}
+
 .center {
   text-align: center;
 }
