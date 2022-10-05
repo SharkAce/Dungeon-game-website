@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>media</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../js/language_switch.js"></script>
+</head>
+
+<body>
+    <ul id="nav_bar">
+        <li><a href="./main.html">Principal</a></li>
+        <li><a href="./description.html">information</a></li>
+        <li><a href="./tech.html">tech</a></li>
+        <li><a href="./editor.html">editeur</a></li>
+        <li><a class="active" href="./video.html">video</a></li>
+        <li><a href="./links.html">liens</a></li>
+        <li class="language_button"><button onclick="switchLanguage()">Eng/Fr</a></li>
+      </ul>
+
+      <div class="media_container">
+        <p>Musique de fond: </p>
+        <audio src="../../res/稲葉曇『ラグトレイン』Vo. 歌愛ユキ.mp3" controls></audio>
+      </div>
+
+      <div class="media_container">
+        <p>Demo du jeux: </p>
+        <video src="../../res/【うごメモ】ミクの日.mp4" width="430"controls id="game_demo"></video>
+      </div>
+
+      <div class="media_container">
+        <p>Vidéo tutorielle pour SFML: </p>
+        <iframe src="https://www.youtube-nocookie.com/embed/C06eGdy7C6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+          
+</body>
