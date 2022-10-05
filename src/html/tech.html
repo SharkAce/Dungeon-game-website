@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>tech</title>
+    <title>Tech</title>
+    <link rel="icon" href="../../res/icon.png">
     <link rel="stylesheet" href="../styles.css">
+    <script src="../js/text.js"></script>
     <script src="../js/language_switch.js"></script>
 </head>
 
 <body>
     <ul id="nav_bar">
-        <li><a href="./main.html">Principal</a></li>
-        <li><a href="./description.html">information</a></li>
-        <li><a class="active" href="./tech.html">tech</a></li>
-        <li><a href="./editor.html">editeur</a></li>
-        <li><a href="./video.html">video</a></li>
-        <li><a href="./links.html">liens</a></li>
+        <li><a href="./main.html"></a></li>
+        <li><a href="./description.html"></a></li>
+        <li><a class="active" href="./tech.html"></a></li>
+        <li><a href="./editor.html"></a></li>
+        <li><a href="./video.html"></a></li>
+        <li><a href="./links.html"></a></li>
         <li class="language_button"><button onclick="switchLanguage()">Eng/Fr</a></li>
       </ul>
 
       <div class="tech_container">
         <img src="../../res/ISO_C++_Logo.svg.png">
-        <p class="tech_container">J'ai chosis c++ comme langauage pour mon jeux pour plusieurs raison. J'avais déjà experimanter avec du Javascript pour faire des petits jeux mais pour ce projet je voulais quelque chose de puissant tout en restant orienté object.</p>
-      </div>
-
-      <div class="tech_container">
-        <img src="../../res/Unofficial_JavaScript_logo_2.svg.png">
-        <p class="tech_container">Pour l'édteur de tuiles de niveaux présent sur ce site j'ai chosis JavaScript car la performance n'étais pas un avantage et je voulais revenire a la proggramation de jeux le plus vite possible. J'ai aussi choisi JavaScript pour les froms HTML qui rendais la tache de parametrer l'éditeur beaucoup plus facile et rapide à implémenter.</p>
-      </div>
-
-      <div class="tech_container">
-        <img src="../../res/1_h9G7gjWQeQVwqkbhHVvOQg.png">
-        <p class="tech_container">J'ai chosis c++ comme langauage pour mon jeux pour plusieurs raison. J'avais déjà experimanter avec du Javascript pour faire des petits jeux mais pour ce projet je voulais quelque chose de puissant tout en restant orienté object.</p>
+        <p class="tech_container" id="tech_cpp"></p>
       </div>
 
       <div class="tech_container">
         <img src="../../res/1200px-SFML_Logo.svg.png">
-        <p class="tech_container">J'ai chosis c++ comme langauage pour mon jeux pour plusieurs raison. J'avais déjà experimanter avec du Javascript pour faire des petits jeux mais pour ce projet je voulais quelque chose de puissant tout en restant orienté object.</p>
+        <p class="tech_container" id="tech_sfml"></p>
+      </div>
+
+      <div class="tech_container">
+        <img src="../../res/Unofficial_JavaScript_logo_2.svg.png">
+        <p class="tech_container" id="tech_js"></p>
+      </div>
+
+      <div class="tech_container">
+        <img src="../../res/1_h9G7gjWQeQVwqkbhHVvOQg.png">
+        <p class="tech_container" id="tech_p5"></p>
       </div>
 
       <div class="tech_container">
         <img src="../../res/langfr-220px-Heckert_GNU_white.svg.png">
-        <p class="tech_container">J'ai chosis c++ comme langauage pour mon jeux pour plusieurs raison. J'avais déjà experimanter avec du Javascript pour faire des petits jeux mais pour ce projet je voulais quelque chose de puissant tout en restant orienté object.</p>
+        <p class="tech_container" id="tech_make"></p>
       </div>
+
+      <script>loadAnchor(); loadText()</script>
       
 </body>
