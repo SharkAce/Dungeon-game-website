@@ -35,22 +35,17 @@ body {
   object-fit: fill;
 }
 
-#game_demo {
-  height: auto;
-  width: 65%;
-  min-width: 430px;
-}
-
 .link_container {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #333;
   max-width: 750px;
   display:block;
   background-color: #333;
-  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
   padding-top: 7px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .link_container_img {
@@ -175,51 +170,51 @@ ul {
     background-color: #333;
   }
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    font: inherit;
-    font-family: ARCADECLASSIC;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #866781;
-  }
+li {
+  float: left;
+}
 
-  .language_button{
-    float: right;
-  }
-  .language_button button{
-    float: right;
-    font: inherit;
-    font-family: ARCADECLASSIC;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #333;
-    border: 0px;
-    height: 44px;
-  }
+li a {
+  font: inherit;
+  font-family: ARCADECLASSIC;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  li button:hover:not(.active) {
-    background-color: #111;
-  }
+li a:hover:not(.active) {
+  background-color: #111;
+}
 
-  @media only screen and (max-width: 480px) {
-    .link_container_img {
-      width: 350px !important;
-    }
+.active {
+  background-color: #866781;
+}
+
+.language_button{
+  float: right;
+}
+.language_button button{
+  float: right;
+  font: inherit;
+  font-family: ARCADECLASSIC;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #333;
+  border: 0px;
+  height: 44px;
+}
+
+li button:hover:not(.active) {
+  background-color: #111;
+}
+
+@media only screen and (max-width: 480px) {
+  .link_container_img {
+    width: 350px !important;
   }
+}
