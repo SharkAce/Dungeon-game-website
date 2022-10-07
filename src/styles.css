@@ -217,4 +217,7 @@ li button:hover:not(.active) {
   .link_container_img {
     width: 350px !important;
   }
+  .media_container iframe {
+    height: 180px !important;
+  }
 }

@@ -28,7 +28,7 @@ function loadText(){
     }
 }
 
-function loadAnchor(){
+function loadNavBar(){
 
     lang = window.location.hash == "#eng" ? "eng" : "fr";
 
@@ -57,6 +57,6 @@ function switchLanguage(){
     else window.location.hash = "#fr";
 
 
-    loadAnchor();
+    loadNavBar();
     loadText();
 }

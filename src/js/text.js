@@ -56,9 +56,11 @@ const bodyText = {
     },
     tech_sfml: {
         fr:
-        ``,
+        `Pour la librairie graphique en c++, j'ai choisi sfml principalement pour la compatibilitée avec linux et windows. Aussi la documentations 
+        est très biens écrit et elle inclues beaucoup de fonctionnalitée de haut niveaux comme la fontion sf::intersects qui dit si deux rectangles sont en collision.`,
         eng:
-        ``
+        `For the c++ graphics library, I chose sfml mainly for compatibility with linux and windows. Also the documentation
+        is very well written and it includes a lot of high level functionality like the sf::intersects function which tells if two rectangles have a collision.`
     },
     tech_js: {
         fr:
