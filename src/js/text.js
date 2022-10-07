@@ -13,7 +13,7 @@ const bodyText = {
     description: {
         fr:
         `<b>Description:</b><br>
-        Dungeon game est un jeux 2D en vue de haut que je commencé pour le
+        Dungeon game est un jeux 2D en vue de haut que j'ai commencé pour le
         plaisir et qui est devenue mon projet final pour mon cours de proggramation. <br> <br>
         <b>Plateforme:</b><br>
         Linux et Windows<br> <br>
