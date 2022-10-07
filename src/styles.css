@@ -9,12 +9,16 @@ body {
 
 }
 
+.top_padding {
+  height: 40px;
+}
+
 .media_container {
 
   margin: auto;
   background-color: #333;
   max-width: 830px;
-  margin-top: 10px;
+  margin-bottom : 10px;
   text-align: center;
   padding-bottom: 4px;
 }
@@ -42,6 +46,7 @@ body {
   max-width: 750px;
   display:block;
   background-color: #333;
+  margin-top: 5px;
   margin-bottom: 10px;
   text-align: center;
   padding-top: 7px;
@@ -167,7 +172,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
   }
   
 li {
@@ -204,7 +213,7 @@ li a:hover:not(.active) {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #333;
+  background-color: rgb(49, 49, 49);
   border: 0px;
   height: 44px;
 }
@@ -219,5 +228,11 @@ li button:hover:not(.active) {
   }
   .media_container iframe {
     height: 180px !important;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .top_padding {
+    height: 85px;
   }
 }
